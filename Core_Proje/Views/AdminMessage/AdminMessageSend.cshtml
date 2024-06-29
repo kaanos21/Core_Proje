@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Concrete.WriterMessage
+@{
+    ViewData["Title"] = "AdminMessageSend";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div class="card-header border-0">
+        <h3 class="mb-0">Yetenek Ekleme Sayfası</h3>
+    </div>
+    <br />
+    @Html.Label("Konu")
+    <input type="text" asp-for="Subject" class="form-control" />
+    <br />
+    <label>Alıcı</label>
+    <input type="text" asp-for="Receiver" class="form-control" />
+    <br />
+    <label>Mesaj</label>
+    <input type="text" asp-for="MessageContent" class="form-control" />
+    <br />
+    <button class="btn btn-primary">Gönder</button>
+</form>
+
