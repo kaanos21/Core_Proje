@@ -1,4 +1,4 @@
-Core Proje
+
 Core Proje, .NET Core 6.0 kullanılarak geliştirilmiş modern bir uygulamadır. Bu proje, kullanıcıların çeşitli işlemleri gerçekleştirebileceği kapsamlı bir sistem sunar. Uygulama, ölçeklenebilirlik ve sürdürülebilirlik için en iyi uygulama standartlarını takip eder.
 
 Projeye Genel Bakış
